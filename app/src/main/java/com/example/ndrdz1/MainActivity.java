@@ -40,15 +40,6 @@ public class MainActivity extends AppCompatActivity {
                         intent.putExtra("text", text);
                         startActivity(intent);
                 }
-//                if (!editText.equals(text1)) {
-//                    Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-//                } else if (!editText.equals(text2)) {
-//                    Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-//                    startActivity(intent);
-//                } else if  (!editText.equals(text3)) {
-//                    Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-//                    intent.putExtra("text", text);
-//                    startActivity(intent);
             }
         });
     }
