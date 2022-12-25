@@ -11,11 +11,7 @@ import android.widget.Toast;
 public class SecondActivity extends AppCompatActivity {
 
     ImageView image;
-
-    String text1 = "WhatsApp";
-    String text2 = "YouTube";
-    String text3 = "Google";
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
