@@ -31,9 +31,10 @@ public class MainActivity extends AppCompatActivity {
                 String text = editText.getText().toString().trim();
                 if (text.isEmpty()) {
                     editText.setError("Заполните поле!");
-                }else if (!editText.equals(text1) && !editText.equals(text2) && !editText.equals(text3)){
-                    editText.setError("Не правильный ввод текста");
                 }
+//                 else if (!editText.equals(text1) && !editText.equals(text2) && !editText.equals(text3)){
+//                     editText.setError("Не правильный ввод текста");
+//                 }
                 else{
                     Intent intent = new Intent(MainActivity.this,SecondActivity.class);
                         intent.putExtra("text", text);
