@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ndrDZ1</string>
+    <string name="google">google</string>
+    <string name="youtube">YouTube</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="edit_text">edit text</string>
+    <string name="photo">photo</string>
+</resources>
